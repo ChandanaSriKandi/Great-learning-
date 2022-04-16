@@ -1,0 +1,52 @@
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:steelblue;
+}
+li{
+    float:left;
+}
+li a {
+    display:block;
+    color:whitesmoke;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+    li a:hover:not(.active)
+    {
+       background-color:azure;
+    }
+    .active
+    {
+        background-color:darkblue;
+    }
+    .button
+    {
+      background-color:darkblue;
+      border:wheat;
+      color:white;
+      padding: 20px,35px;
+      text-align:center;
+      display:inline-block;
+      font-size:medium;
+    }
+    #personal
+    {
+        background-color: skyblue;
+        padding:30px;
+        margin:50px;
+        max-width:400px;
+        height:350px;
+    }
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+    
